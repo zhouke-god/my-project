@@ -1,0 +1,37 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ---------- 虚拟环境 ----------
+.venv/
+venv/
+env/
+ENV/
+
+# ---------- PyInstaller 打包产物 ----------
+# 这些是可再生文件，由 build.bat / AI_Pet.spec 生成，不入库
+build/
+dist/
+*.manifest
+*.spec.bak
+
+# ---------- IDE / 系统 ----------
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---------- 运行时生成的用户数据（不入库）----------
+# 首次运行会自动生成，含个人存档 / 聊天记录 / 本机配置
+pet_config.json
+pet_save.json
+pet_selected.json
+pet_weather.json
+eula_accepted.txt
+
+# ---------- 工具工作区 ----------
+.workbuddy/
